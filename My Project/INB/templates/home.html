@@ -1,0 +1,80 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+<style>
+    div{
+     margin:0px;
+     padding: 10px 15px;
+     text-align: left;
+    }
+    h3{
+        text-align: center;
+        background-color: lightblue;
+        text-decoration-color: green   
+    }
+    footer{
+        text-align: center;
+        background-color: rgb(137, 182, 235);
+}
+nav a:hover{
+  background:skyblue;
+  color: black;
+    }
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>5G Hackathon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body style="background-color:#F2F3F4 ;">
+   
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href='{% url "home" %}'><img src="https://www.manifestias.com/wp-content/uploads/2020/03/z5g.png" alt="logo" style="width:120px;height:45px;"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                          <a class="nav-link" href='{% url "home" %}'><b>Home </b></a>
+                        </li>
+                  <li class="nav-item">
+                    <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                  </li>
+                  <li class="nav-item active">
+                          <a class="nav-link" href='{% url "application" %}'><b> Registration </b></a>
+                        </li>
+                  <li class="nav-item">
+                    <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                  </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="button" class="btn btn-primary">Search</button>
+                </form>
+                </nav>
+  <div>
+    <!-- <h3 style="color:darkblue"><b>5G Hackathon</b></h3> -->
+  </div>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center"><img src="https://www.manifestias.com/wp-content/uploads/2020/03/z5g.png" style="margin :5px; width:700px;height:300px;"></h2>
+         <h2 style="text-align:center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/80/PM_Narendra_Modi.jpg" style="margin :10px; width:300px;height:300px;"></h2>
+      <div class="col">
+        <h6 for="uname"><b> "Hackathons provide great platforms for youngsters to test their ideas and innovative skills. They can leverage state of the art technology for the solution of global problems.”</b></h6>
+       
+    </div>
+  </form>
+</div>
+  </div>
+  <footer><marquee behavior="scroll" direction="left"><b>5G Hackathon © Department of Telecommunications 2020. All rights reserved.
+</b></marquee></footer>
+  
+    </body>
+</html>
