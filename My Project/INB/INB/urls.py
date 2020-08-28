@@ -20,6 +20,6 @@ from personal import views
 
 urlpatterns = [
     url(r'^admin/',admin.site.urls),
-    url(r'^internetbanking/',include('personal.urls')),
+    url(r'^5gHackathon/',include('personal.urls')),
     
 ]
