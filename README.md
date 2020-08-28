@@ -10,7 +10,7 @@ Website:
 
 # Simple Registration/Login code in PYTHON
 
-Read more:[PYTHON registration form](http://127.0.0.1:8000/internetbanking/application/) 
+Read more:[PYTHON registration form](http://127.0.0.1:8000/5GHackathon/home/) 
 
 #################################################
 
